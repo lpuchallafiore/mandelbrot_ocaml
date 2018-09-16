@@ -1,0 +1,10 @@
+(executable
+ (name fractal)
+ (preprocess (pps js_of_ocaml-ppx ppx_jane))
+ (libraries base js_of_ocaml))
+
+(alias
+  (name DEFAULT)
+  (deps
+    fractal.bc.js
+    index.html))
