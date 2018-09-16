@@ -1,1 +1,1 @@
-# mandelbrot_ocaml
+# Web-based Mandelbrot viewer written in OCaml
